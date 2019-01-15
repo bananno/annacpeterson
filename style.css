@@ -1,3 +1,4 @@
+
 * {
     padding: 0px;
     margin: 0px;
@@ -9,7 +10,6 @@ html, body {
 }
 
 body {
-    margin-top: 0px;
     background-color: #E6F3F7;
 }
 
@@ -26,11 +26,20 @@ h2 {
 
 a {
     color: #FF643B;
+    text-decoration: none;
 }
 
-#page-title, #page-content {
+#top-links, #page-title, #page-content {
     padding-left:  200px;
     padding-right:  200px;
+}
+
+#top-links {
+    text-align: right;
+}
+
+#top-links img {
+    height: 25px;
 }
 
 #page-title {
