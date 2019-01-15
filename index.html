@@ -16,28 +16,39 @@ html, body {
 
 body {
     margin-top: 0px;
-    margin-left: 200px;
-    margin-right: 200px;
     background-color: #E6F3F7;
 }
 
 h1 {
-    font-size: 50px;
+    font-size: 70px;
 }
 
 h2 {
+    font-size: 40px;
     margin-top: 30px;
+    color: #0197C2;
+    border-bottom: 3px solid #0197C2;
 }
 
 a {
     color: #FF643B;
 }
 
+#page-title, #page-content {
+    padding-left:  200px;
+    padding-right:  200px;
+}
+
+#page-title {
+    background-color: #24ABD2;
+    color: #E6F3F7;
+    width: 100%;
+    border-bottom: 10px solid orange;
+    padding-top: 20px;
+    padding-bottom: 10px;
+}
+
 #page-content {
-    background-color: #9DE9FF;
-    padding: 30px;
-    border-left: 8px solid orange;
-    height: 100%;
 }
 
 .logo-link {
@@ -45,15 +56,32 @@ a {
     margin-top: 30px;
 }
 
-.single-link {
+.portfolio-item {
     margin-top: 20px;
+    border-left: 3px solid black;
+    padding-left: 10px;
+}
+
+.portfolio-item .title {
+    font-size: 20px;
+}
+
+.language-logo img {
+    height: 20px;
+}
+
+.language-logo {
+    font-size: 20px;
 }
 </style>
 
 </head>
 <body>
-    <div id="page-content">
+    <div id="page-title">
         <h1>Anna Peterson</h1>
+    </div>
+
+    <div id="page-content">
 
         <h2>Links</h2>
 
@@ -64,13 +92,22 @@ a {
 
         <h2>Portfolio</h2>
 
-        <p class="single-link">
-            <a href="http://designer.annacpeterson.com">designer</a>
-        </p>
+        <div class="portfolio-item">
+            <p class="title">
+                Designer
+            </p>
 
-        <p class="single-link">
-            <a href="http://ancestry.annacpeterson.com">ancestry</a>
-        </p>
+            <div class="language-logo">
+                <img src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9Ii0xMS41IC0xMC4yMzE3NCAyMyAyMC40NjM0OCI+CiAgPHRpdGxlPlJlYWN0IExvZ288L3RpdGxlPgogIDxjaXJjbGUgY3g9IjAiIGN5PSIwIiByPSIyLjA1IiBmaWxsPSIjNjFkYWZiIi8+CiAgPGcgc3Ryb2tlPSIjNjFkYWZiIiBzdHJva2Utd2lkdGg9IjEiIGZpbGw9Im5vbmUiPgogICAgPGVsbGlwc2Ugcng9IjExIiByeT0iNC4yIi8+CiAgICA8ZWxsaXBzZSByeD0iMTEiIHJ5PSI0LjIiIHRyYW5zZm9ybT0icm90YXRlKDYwKSIvPgogICAgPGVsbGlwc2Ugcng9IjExIiByeT0iNC4yIiB0cmFuc2Zvcm09InJvdGF0ZSgxMjApIi8+CiAgPC9nPgo8L3N2Zz4K">
+                React
+            </div>
+
+            <p>
+                <a href="http://designer.7i5nptapg2.us-west-2.elasticbeanstalk.com/">view site</a>
+                <a href="https://github.com/bananno/designer">github</a>
+            </p>
+        </div>
+
     </div>
 </body>
 </html>
