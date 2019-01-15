@@ -5,23 +5,12 @@
     font-family: "Lucida Console", "Monaco", monospace;
 }
 
-html, body {
-    height: 100%;
-}
-
 body {
     background-color: #E6F3F7;
 }
 
 h1 {
     font-size: 70px;
-}
-
-h2 {
-    font-size: 40px;
-    margin-top: 30px;
-    color: #0197C2;
-    border-bottom: 3px solid #0197C2;
 }
 
 a {
@@ -36,6 +25,7 @@ a {
 
 #top-links {
     text-align: right;
+    font-size: 25px;
 }
 
 #top-links img {
@@ -51,17 +41,9 @@ a {
     padding-bottom: 10px;
 }
 
-#page-content {
-}
-
-.logo-link {
-    height: 90px;
-    margin-top: 30px;
-}
-
 .portfolio-item {
     margin-top: 20px;
-    border-left: 3px solid black;
+    border-left: 3px solid #0197C2;
     padding-left: 10px;
 }
 
