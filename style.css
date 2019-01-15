@@ -1,0 +1,69 @@
+* {
+    padding: 0px;
+    margin: 0px;
+    font-family: "Lucida Console", "Monaco", monospace;
+}
+
+html, body {
+    height: 100%;
+}
+
+body {
+    margin-top: 0px;
+    background-color: #E6F3F7;
+}
+
+h1 {
+    font-size: 70px;
+}
+
+h2 {
+    font-size: 40px;
+    margin-top: 30px;
+    color: #0197C2;
+    border-bottom: 3px solid #0197C2;
+}
+
+a {
+    color: #FF643B;
+}
+
+#page-title, #page-content {
+    padding-left:  200px;
+    padding-right:  200px;
+}
+
+#page-title {
+    background-color: #24ABD2;
+    color: #E6F3F7;
+    width: 100%;
+    border-bottom: 10px solid orange;
+    padding-top: 20px;
+    padding-bottom: 10px;
+}
+
+#page-content {
+}
+
+.logo-link {
+    height: 90px;
+    margin-top: 30px;
+}
+
+.portfolio-item {
+    margin-top: 20px;
+    border-left: 3px solid black;
+    padding-left: 10px;
+}
+
+.portfolio-item .title {
+    font-size: 20px;
+}
+
+.language-logo img {
+    height: 20px;
+}
+
+.language-logo {
+    font-size: 20px;
+}
