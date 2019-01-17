@@ -17,23 +17,28 @@
     </div>
 
     <div id="page-content">
+        <script>
+            portfolio.forEach((item) => {
+                let div = '<div class="portfolio-item">';
+                div += '<p class="title">' + item.title + '</p>';
 
-        <div class="portfolio-item">
-            <p class="title">
-                Designer
-            </p>
+                if ((item.language || '').match('react')) {
+                    div += '<div class="language-logo"> <img src="' + reactImage + '"> React </div>';
+                }
 
-            <div class="language-logo">
-                <img src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9Ii0xMS41IC0xMC4yMzE3NCAyMyAyMC40NjM0OCI+CiAgPHRpdGxlPlJlYWN0IExvZ288L3RpdGxlPgogIDxjaXJjbGUgY3g9IjAiIGN5PSIwIiByPSIyLjA1IiBmaWxsPSIjNjFkYWZiIi8+CiAgPGcgc3Ryb2tlPSIjNjFkYWZiIiBzdHJva2Utd2lkdGg9IjEiIGZpbGw9Im5vbmUiPgogICAgPGVsbGlwc2Ugcng9IjExIiByeT0iNC4yIi8+CiAgICA8ZWxsaXBzZSByeD0iMTEiIHJ5PSI0LjIiIHRyYW5zZm9ybT0icm90YXRlKDYwKSIvPgogICAgPGVsbGlwc2Ugcng9IjExIiByeT0iNC4yIiB0cmFuc2Zvcm09InJvdGF0ZSgxMjApIi8+CiAgPC9nPgo8L3N2Zz4K">
-                React
-            </div>
+                if (item.site) {
+                    div += '<p><a href="' + item.site + '" target="_blank">view site</a></p>';
+                }
 
-            <p>
-                <a href="http://designer.7i5nptapg2.us-west-2.elasticbeanstalk.com/">view site</a>
-                <a href="https://github.com/bananno/designer">github</a>
-            </p>
-        </div>
+                if (item.github) {
+                    div += '<p><a href="' + item.github + '" target="_blank">github</a></p>';
+                }
 
+                div += '</div>';
+
+                document.write(div);
+            });
+        </script>
     </div>
 </body>
 </html>
