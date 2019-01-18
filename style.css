@@ -42,13 +42,14 @@ a {
 }
 
 .portfolio-item {
-    margin-top: 20px;
+    margin-top: 30px;
     border-left: 3px solid #0197C2;
-    padding-left: 10px;
+    padding-left: 20px;
 }
 
 .portfolio-item .title {
-    font-size: 20px;
+    font-size: 30px;
+    font-weight: bold;
 }
 
 .language-logo img {
