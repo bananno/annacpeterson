@@ -11,7 +11,7 @@ const portfolio = [
   },
   {
     title: 'Sliding Puzzle',
-    site: null,
+    site: 'http://annacpeterson.com/slidingpuzzle/index.html',
     github: 'https://github.com/bananno/slidingpuzzle',
     language: '',
     description: null,
