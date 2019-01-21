@@ -38,9 +38,9 @@ a {
     }
 }
 
-/* OTHER */
+/* TOP LINKS */
 
-#top-links, #page-content {
+#top-links {
     padding-left:  200px;
     padding-right:  200px;
 }
@@ -54,10 +54,13 @@ a {
     height: 25px;
 }
 
+/* PORTFOLIO */
+
 .portfolio-item {
     margin-top: 30px;
     border-left: 3px solid #0197C2;
     padding-left: 20px;
+    margin-left:  200px;
 }
 
 .portfolio-item .title {
