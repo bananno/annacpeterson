@@ -16,19 +16,26 @@ a {
 
 /* PAGE TITLE */
 
-h1 {
-    font-size: 70px;
-    color: #E6F3F7;
-}
-
 #page-title {
-    padding-left: 200px;
-    padding-right: 200px;
+    color: #E6F3F7;
     background-color: #24ABD2;
     width: 100%;
     border-bottom: 10px solid orange;
     padding-top: 20px;
     padding-bottom: 10px;
+    text-align: center;
+    font-size: 110px;
+    margin: auto;
+    font-weight: bold;
+}
+
+@media screen and (min-width: 1025px) {
+    #page-title {
+        text-align: left;
+        padding-left: 200px;
+        font-size: 70px;
+        margin: 0;
+    }
 }
 
 /* OTHER */
