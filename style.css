@@ -40,15 +40,36 @@ a {
 
 /* PROFILE LINKS */
 
-.profile-links.above-title {
-    padding-left: 200px;
-    padding-right: 200px;
-    text-align: right;
-    font-size: 25px;
+@media screen and (min-width: 1025px) {
+    .profile-links.above-title {
+        padding-left: 200px;
+        padding-right: 200px;
+        text-align: right;
+        font-size: 25px;
+    }
+
+    .profile-links img {
+        height: 25px;
+    }
+
+    .profile-links.below-title {
+        display: none;
+    }
 }
 
-.profile-links img {
-    height: 25px;
+@media screen and (max-width: 1024px) {
+    .profile-links.below-title {
+        margin-left: 50px;
+        margin-top: 50px;
+    }
+
+    .profile-links img {
+        height: 100px;
+    }
+
+    .profile-links.above-title {
+        display: none;
+    }
 }
 
 /* PORTFOLIO */
