@@ -38,19 +38,16 @@ a {
     }
 }
 
-/* TOP LINKS */
+/* PROFILE LINKS */
 
-#top-links {
-    padding-left:  200px;
-    padding-right:  200px;
-}
-
-#top-links {
+.profile-links.above-title {
+    padding-left: 200px;
+    padding-right: 200px;
     text-align: right;
     font-size: 25px;
 }
 
-#top-links img {
+.profile-links img {
     height: 25px;
 }
 
