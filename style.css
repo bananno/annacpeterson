@@ -9,16 +9,31 @@ body {
     background-color: #E6F3F7;
 }
 
-h1 {
-    font-size: 70px;
-}
-
 a {
     color: #FF643B;
     text-decoration: none;
 }
 
-#top-links, #page-title, #page-content {
+/* PAGE TITLE */
+
+h1 {
+    font-size: 70px;
+    color: #E6F3F7;
+}
+
+#page-title {
+    padding-left: 200px;
+    padding-right: 200px;
+    background-color: #24ABD2;
+    width: 100%;
+    border-bottom: 10px solid orange;
+    padding-top: 20px;
+    padding-bottom: 10px;
+}
+
+/* OTHER */
+
+#top-links, #page-content {
     padding-left:  200px;
     padding-right:  200px;
 }
@@ -30,15 +45,6 @@ a {
 
 #top-links img {
     height: 25px;
-}
-
-#page-title {
-    background-color: #24ABD2;
-    color: #E6F3F7;
-    width: 100%;
-    border-bottom: 10px solid orange;
-    padding-top: 20px;
-    padding-bottom: 10px;
 }
 
 .portfolio-item {
