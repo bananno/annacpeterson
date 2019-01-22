@@ -39,6 +39,10 @@
                     div += '<div class="language-logo"> <img src="' + reactImage + '"> React </div>';
                 }
 
+                if (item.description) {
+                    div += '<p>' + item.description + '</p>';
+                }
+
                 if (item.site) {
                     div += '<p><a href="' + item.site + '" target="_blank">view site</a></p>';
                 }
