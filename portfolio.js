@@ -10,6 +10,13 @@ const portfolio = [
     description: null,
   },
   {
+    title: 'Ancestry',
+    site: 'http://ancestry.cp3msbrmnj.us-west-2.elasticbeanstalk.com/',
+    github: 'https://github.com/bananno/acpancestry',
+    language: '',
+    description: null,
+  },
+  {
     title: 'Sliding Puzzle',
     site: 'http://annacpeterson.com/slidingpuzzle',
     github: 'https://github.com/bananno/slidingpuzzle',
