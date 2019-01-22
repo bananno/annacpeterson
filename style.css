@@ -94,12 +94,16 @@ a {
     height: 50px;
 }
 
-.description {
-    font-size: 25px;
+.language-logo {
+    font-size: 45px;
 }
 
-.language-logo {
-    font-size: 40px;
+.description {
+    font-size: 35px;
+}
+
+.site-link {
+    font-size: 35px;
 }
 
 @media screen and (min-width: 1025px) {
@@ -118,7 +122,7 @@ a {
         height: 20px;
     }
 
-    .description, .language-logo {
+    .language-logo, .description, .site-link {
         font-size: 20px;
     }
 }
