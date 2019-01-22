@@ -94,7 +94,11 @@ a {
     height: 50px;
 }
 
-.portfolio-item, .language-logo {
+.description {
+    font-size: 25px;
+}
+
+.language-logo {
     font-size: 40px;
 }
 
@@ -114,7 +118,7 @@ a {
         height: 20px;
     }
 
-    .portfolio-item, .language-logo {
+    .description, .language-logo {
         font-size: 20px;
     }
 }
