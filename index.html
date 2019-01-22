@@ -35,7 +35,7 @@
                 let div = '<div class="portfolio-item">';
                 div += '<p class="title">' + item.title + '</p>';
 
-                if ((item.language || '').match('react')) {
+                if ((item.tags || '').match('react')) {
                     div += '<div class="language-logo"> <img src="' + reactImage + '"> React </div>';
                 }
 
