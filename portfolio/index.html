@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Anna Peterson</title>
+  <link rel="stylesheet" href="../style.css">
+  <link rel="shortcut icon" type="image/png" href="../images/favicon-a.png"/>
+  <script src="portfolio.js"></script>
+</head>
+<body>
+  <div class="profile-links above-title">
+    <a href="https://annacpeterson.com">
+      <img src="../images/favicon-a.png"> Home
+    </a>
+    &#160;&#160;&#160;
+    <a href="https://www.linkedin.com/in/anna-c-peterson/" target="_blank">
+      <img src="../images/linkedin-logo.png"> LinkedIn
+    </a>
+    &#160;&#160;&#160;
+    <a href="https://github.com/bananno" target="_blank">
+      <img src="../images/github-logo.png"> GitHub
+    </a>
+  </div>
+
+  <div id="page-title">
+    Anna Peterson
+  </div>
+
+  <div class="profile-links below-title">
+    <a href="https://www.linkedin.com/in/anna-c-peterson/" target="_blank">
+      <img src="../images/linkedin-logo.png">
+    </a>
+    <a href="https://github.com/bananno" target="_blank">
+      <img src="../images/github-logo.png">
+    </a>
+  </div>
+
+  <div id="page-content">
+    <script>
+      portfolio.forEach((item) => {
+        let div = '<div class="portfolio-item">';
+        div += '<p class="title">' + item.title + '</p>';
+
+        if ((item.tags || '').match('react')) {
+          div += '<div class="language-logo"> <img src="../' + reactImage + '"> React </div>';
+        }
+
+        if (item.description) {
+          div += '<p class="description">' + item.description + '</p>';
+        }
+
+        if (item.site || item.github) {
+          div += '<p class="site-link">';
+
+          if (item.site) {
+            div += '<a href="' + item.site + '" target="_blank">view site</a>';
+
+            if (item.github) {
+              div += ' &#8729; ';
+            }
+          }
+
+          if (item.github) {
+            div += '<a href="' + item.github + '" target="_blank">github</a>';
+          }
+
+          div += '</p>';
+        }
+
+        div += '</div>';
+
+        document.write(div);
+      });
+    </script>
+  </div>
+</body>
+</html>
