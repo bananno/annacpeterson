@@ -1,5 +1,5 @@
 slidingpuzzle
 pacman
-ancestry
+ancestry/*
+!ancestry/.htaccess
 .DS_Store
-.htaccess
